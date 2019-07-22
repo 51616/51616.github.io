@@ -12,4 +12,4 @@ redirect_from:
 
 * I am a Master and Ph.D student at Information Science and Technology (IST), [VISTEC](https://www.vistec.ac.th/).
 * Interested in machine learning and AI in general.
-* I have completed bachelor's degree in computer engineering at [Chulalongkorn University](https://chula.ac.th/). My undergraduate projects are shown in my [CV](/files/cv.pdf).
+* I have completed bachelor's degree in computer engineering at [Chulalongkorn University](https://chula.ac.th/en/). My undergraduate projects are shown in my [CV](/files/cv.pdf).
