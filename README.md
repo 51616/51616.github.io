@@ -1,1 +1,1 @@
-This was forked from https://academicpages.github.io/
+This was forked from https://github.com/academicpages/academicpages.github.io
