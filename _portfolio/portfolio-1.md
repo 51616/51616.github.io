@@ -1,7 +1,10 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Solving Snake Using Reinforcement Learning"
+excerpt: "Q-learning agent in snake environment<br/><br/><img src='https://raw.githubusercontent.com/51616/openai_requests_for_research/master/snake/assets/endgame_7x7.gif'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<div style="text-align:center"><img src='https://raw.githubusercontent.com/51616/openai_requests_for_research/master/snake/assets/endgame_7x7.gif'></div>
+<br/>
+
+[Github repository](https://github.com/51616/openai_requests_for_research/tree/master/snake)
