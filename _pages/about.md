@@ -11,5 +11,5 @@ redirect_from:
 ![BG1](/images/about_me.jpg)
 
 * I am a Ph.D student at Information Science and Technology (IST), [VISTEC](https://www.vistec.ac.th/).
-* Interested in machine learning and AI in general.
+* Interested in AI especially reinforcement learning and computer vision.
 * I have completed bachelor's degree in computer engineering at [Chulalongkorn University](https://chula.ac.th/en/). My undergraduate projects are shown in my [CV](/files/cv.pdf).
