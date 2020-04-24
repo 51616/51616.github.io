@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/split-vae
 excerpt: ''
 date: 2020-01-01
-venue: '<i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i> (<b>TPAMI</b>). <b><i>Under review</i></b>'	
+venue: '<b><i>Under review</i></b>'	
 paperurl: 
 citation: '<b>Rujikorn Charakorn</b>, Yuttapong Thawornwattana, Sirawaj Itthipuripat, Nick Pawlowski, Poramate Manoonpong, and Nat Dilokthanakul'
 ---
