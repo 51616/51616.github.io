@@ -10,7 +10,7 @@ citation: '<b>Rujikorn Charakorn</b>, Yuttapong Thawornwattana, Sirawaj Itthipur
 ---
 
 
-[Download paper here](https://arxiv.org/abs/2001.08957)
+[Access the paper here](https://arxiv.org/abs/2001.08957)
 
 <!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
 
