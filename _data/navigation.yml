@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: https://docs.google.com/document/d/1ybpn0q8JlNufmmYgdQR-1Pa0JltDMxOV_dlWW_VYRQw/export?format=pdf
     
   # - title: "Guide"
   #   url: /markdown/
