@@ -2,11 +2,11 @@
 title: "Investigating Partner Diversification Methods in Cooperative Multi-agent Deep Reinforcement Learning"
 collection: publications
 permalink: /publication/diversity
-excerpt: ''
+excerpt: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul. <i>The 27th International Conference on Neural Information Processing. <b>ICONIP 2020</b></i>'
 date: 2020-05-01
-venue: '<i>The 27th International Conference on Neural Information Processing. <b>ICONIP 2020</b></i>' 
+venue: '' 
 paperurl: 
-citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul'
+citation: ''
 ---
 
 
