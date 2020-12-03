@@ -3,7 +3,7 @@ title: "Learning to Cooperate with Unseen Agents Through Meta-Reinforcement Lear
 collection: publications
 permalink: /publication/meta-rl-for-ad-hoc
 excerpt: ''
-date: 2020-01-01
+date: 2020-09-01
 venue: '<b><i>Under review</i></b>' 
 paperurl: 
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul'

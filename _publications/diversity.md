@@ -3,7 +3,7 @@ title: "Investigating Partner Diversification Methods in Cooperative Multi-agent
 collection: publications
 permalink: /publication/diversity
 excerpt: ''
-date: 2020-01-01
+date: 2020-05-01
 venue: '<b><i>ICONIP 2020</i></b>' 
 paperurl: 
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul'
