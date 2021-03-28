@@ -9,3 +9,5 @@ paperurl:
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul' 
 --- 
  
+ 
+[Poster](/files/posters/aamas_poster_update2.pdf)
