@@ -8,6 +8,6 @@ venue: '<i>The 20th International Conference on Autonomous Agents and Multiagent
 paperurl:  
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul' 
 --- 
+
  
- 
-[Poster](/files/posters/aamas_poster_update2.pdf)
+[pdf](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1478.pdf), [poster](/files/posters/aamas_poster_update2.pdf)
