@@ -13,26 +13,19 @@ citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul
 [Access the paper here](https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46) ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-63823-8_46.pdf) or [pdf](/files/papers/Charakorn2020_Chapter_InvestigatingPartnerDiversific.pdf))
 
 
+### Abstract
+Overfitting to learning partners is a known problem, in multi-agent reinforcement learning (MARL), due to the co-evolution of learning agents. Previous works explicitly add diversity to learning partners for mitigating this problem. However, since there are many approaches for introducing diversity, it is not clear which one should be used under what circumstances. In this work, we clarify the situation and reveal that widely used methods such as partner sampling and population-based training are unreliable at introducing diversity under fully cooperative multi-agent Markov decision process. We find that generating pre-trained partners is a simple yet effective procedure to achieve diversity. Finally, we highlight the impact of diversified learning partners on the generalization of learning agents using cross-play and ad-hoc team performance as evaluation metrics.
+
+
 ### Citation
 ```
-@InProceedings{10.1007/978-3-030-63823-8_46,
-author="Charakorn, Rujikorn
-and Manoonpong, Poramate
-and Dilokthanakul, Nat",
-editor="Yang, Haiqin
-and Pasupa, Kitsuchart
-and Leung, Andrew Chi-Sing
-and Kwok, James T.
-and Chan, Jonathan H.
-and King, Irwin",
-title="Investigating Partner Diversification Methods in Cooperative Multi-agent Deep Reinforcement Learning",
-booktitle="Neural Information Processing",
-year="2020",
-publisher="Springer International Publishing",
-address="Cham",
-pages="395--402",
-abstract="Overfitting to learning partners is a known problem, in multi-agent reinforcement learning (MARL), due to the co-evolution of learning agents. Previous works explicitly add diversity to learning partners for mitigating this problem. However, since there are many approaches for introducing diversity, it is not clear which one should be used under what circumstances. In this work, we clarify the situation and reveal that widely used methods such as partner sampling and population-based training are unreliable at introducing diversity under fully cooperative multi-agent Markov decision process. We find that generating pre-trained partners is a simple yet effective procedure to achieve diversity. Finally, we highlight the impact of diversified learning partners on the generalization of learning agents using cross-play and ad-hoc team performance as evaluation metrics.",
-isbn="978-3-030-63823-8"
+@inproceedings{charakorn2020investigating,
+  title={Investigating Partner Diversification Methods in Cooperative Multi-agent Deep Reinforcement Learning},
+  author={Charakorn, Rujikorn and Manoonpong, Poramate and Dilokthanakul, Nat},
+  booktitle={International Conference on Neural Information Processing},
+  pages={395--402},
+  year={2020},
+  organization={Springer}
 }
 ```
 
