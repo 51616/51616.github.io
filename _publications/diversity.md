@@ -10,7 +10,7 @@ citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul
 ---
 
 
-[Access the paper here](https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46) ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-63823-8_46.pdf) or [pdf](/files/papers/Charakorn2020_Chapter_InvestigatingPartnerDiversific.pdf))
+[Access the paper here](https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46) ([pdf](/files/papers/diversity_ICONIP2020.pdf) or [pdf](/files/papers/Charakorn2020_Chapter_InvestigatingPartnerDiversific.pdf))
 
 
 ### Abstract
