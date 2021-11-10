@@ -10,7 +10,7 @@ citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul
 --- 
 
  
-[pdf](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1478.pdf), [poster](/files/posters/aamas_poster_update2.pdf)
+[pdf](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1478.pdf), [poster](/files/posters/aamas_poster_update2.pdf), [full paper](https://arxiv.org/pdf/2111.03431.pdf)
 
 
 ### Abstract
