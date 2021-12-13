@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/split-vae
 excerpt: ''
 date: 2020-01-01
-venue: '<b><i>Under review</i></b>'	
+venue: '<b><i>Arxiv pre-print</i></b>'	
 paperurl: 
 citation: '<b>Rujikorn Charakorn</b>, Yuttapong Thawornwattana, Sirawaj Itthipuripat, Nick Pawlowski, Poramate Manoonpong, and Nat Dilokthanakul'
 ---
