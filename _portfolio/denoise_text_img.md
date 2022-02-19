@@ -1,6 +1,7 @@
 ---
 title: "Denoise Generated Text"
 excerpt: "Image denoising trained on generated text images<br/><br/><img src='/images/denoise.png'>"
+date: 2019-01-01
 collection: portfolio
 ---
 

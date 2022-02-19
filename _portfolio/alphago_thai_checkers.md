@@ -1,6 +1,7 @@
 ---
 title: "Thai Checkers Deep Reinforcement Learning Agent"
 excerpt: "AlphaGo applied to Thai checkers<br/><br/><img src='/images/checkers.png'>"
+date: 2019-01-02
 collection: portfolio
 ---
 

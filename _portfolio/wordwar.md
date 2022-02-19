@@ -1,6 +1,7 @@
 ---
 title: "Wordwar"
 excerpt: "Object oriented game using java<br/><br/><img src='/images/wordwar.gif'>"
+date: 2017-01-01
 collection: portfolio
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Solving Snake Using Reinforcement Learning"
 excerpt: "Q-learning agent in snake environment<br/><br/><img src='/images/snake.gif'>"
+date: 2019-07-01
 collection: portfolio
 ---
 
