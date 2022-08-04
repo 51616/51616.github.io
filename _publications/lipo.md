@@ -4,13 +4,13 @@ collection: publications
 permalink: /publication/lipo
 excerpt: '' 
 date: 2022-07-23
-venue: '<i><b>ICML 2022 Workshop AI for Agent-Based Modelling (AI4ABM)</b></i>' 
+venue: '<i><b>AI4ABM workshop @ ICML 2022 (Spotlight)</b></i>' 
 paperurl:  
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul' 
 --- 
 
  
-[pdf](https://openreview.net/pdf?id=a7vLnGKGIjY)
+[pdf](https://openreview.net/pdf?id=a7vLnGKGIjY), [poster](/files/posters/LIPO_poster.pdf)
 
 
 ### Abstract
