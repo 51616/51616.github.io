@@ -14,6 +14,7 @@ citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul
 ### Summary
 In this work, we propose to learn diverse behaviors via policy compatibility. Conceptually, policy compatibility measures whether policies of interest can coordinate effectively. We theoretically show that incompatible policies are not similar. Thus, policy compatibility—which has been used exclusively as a measure of robustness—can be used as a proxy for learning diverse behaviors. Then, we incorporate the proposed objective into a population-based training scheme to allow concurrent training of multiple agents. Additionally, we use state-action information to induce local variations of each policy. Empirically, the proposed method consistently discovers more solutions than baseline methods across various multi-goal cooperative environments. Finally, in multi-recipe Overcooked, we show that our method produces populations of behaviorally diverse agents, which enables generalist agents trained with such a population to be more robust.
 
+This work was also presented at <b>AI4ABM workshop @ ICML 2022 (spotlight)</b> [[pdf](https://openreview.net/pdf?id=a7vLnGKGIjY)] [[poster](/files/posters/LIPO_poster.pdf)]
 
 <!-- ### Citation
 ```
