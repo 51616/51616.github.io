@@ -16,6 +16,18 @@ In this work, we propose to learn diverse behaviors via policy compatibility. Co
 
 This work was also presented at <b>AI4ABM workshop @ ICML 2022 (spotlight)</b> [[pdf](https://openreview.net/pdf?id=a7vLnGKGIjY)] [[poster](/files/posters/LIPO_poster.pdf)]
 
+### Citation
+```
+@inproceedings{
+  charakorn2023generating,
+  title={Generating Diverse Cooperative Agents by Learning Incompatible Policies},
+  author={Rujikorn Charakorn and Poramate Manoonpong and Nat Dilokthanakul},
+  booktitle={The Eleventh International Conference on Learning Representations },
+  year={2023},
+  url={https://openreview.net/forum?id=UkU05GOH7_6}
+}
+```
+
 <!-- ### Citation
 ```
 @inproceedings{charakorn2022generating,
