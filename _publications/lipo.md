@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/lipo
 excerpt: '' 
 date: 2023-01-24
-venue: '<i><b>ICLR 2023 (notable-top-25%)</b></i>' 
+venue: '<i><b>Notable-top-25% @ ICLR 2023</b><br>(previously accepted as a spotlight paper at AI4ABM workshop @ ICML 2022)</i>' 
 paperurl:  
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul' 
 --- 
