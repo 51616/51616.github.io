@@ -4,13 +4,13 @@ collection: publications
 permalink: /publication/meta-rl-for-ad-hoc 
 excerpt: '' 
 date: 2020-12-19
-venue: '<i>The 20th International Conference on Autonomous Agents and Multiagent Systems. <b>AAMAS 2021 (Extended abstract)</b></i>' 
+venue: '<i>The 20th International Conference on Autonomous Agents and Multiagent Systems. <b>AAMAS 2021</b></i>' 
 paperurl:  
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul' 
 --- 
 
  
-[pdf](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1478.pdf), [poster](/files/posters/aamas_poster_update2.pdf), [full paper](https://arxiv.org/pdf/2111.03431.pdf)
+[extended abstract](http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1478.pdf), [poster](/files/posters/aamas_poster_update2.pdf), [full paper](https://arxiv.org/pdf/2111.03431.pdf)
 
 
 ### Abstract
