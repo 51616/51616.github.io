@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/diversity
 excerpt: ''
 date: 2020-05-01
-venue: '<i>The 27th International Conference on Neural Information Processing. <b>ICONIP 2020</b></i>' 
+venue: '<i><b>ICONIP 2020</b></i>' 
 paperurl: 
 citation: '<b>Rujikorn Charakorn</b>, Poramate Manoonpong, and Nat Dilokthanakul'
 ---
