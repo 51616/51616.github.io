@@ -272,7 +272,6 @@ code {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border: var(--border);
-  filter: grayscale(1) contrast(1.1);
 }
 
 .bullet-list {
