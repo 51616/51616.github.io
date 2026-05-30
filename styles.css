@@ -304,7 +304,6 @@ code {
 }
 
 .portrait-card {
-  position: relative;
   background: transparent;
 }
 
@@ -321,7 +320,6 @@ code {
   object-position: 58% center;
   border: 1px solid var(--ink);
   background: var(--surface-high);
-  box-shadow: 0.28rem 0.28rem 0 var(--shadow), 0.36rem 0.36rem 0 var(--ink);
 }
 
 .bullet-list {
@@ -543,11 +541,6 @@ code {
 
 :is(.paper-thumbnail, .project-card img, .album-cover) {
   border: 1px solid var(--ink);
-  box-shadow: 0.28rem 0.28rem 0 var(--shadow), 0.36rem 0.36rem 0 var(--ink);
-}
-
-:is(.paper-card, .project-card, .album-card):hover :is(.paper-thumbnail, img, .album-cover) {
-  box-shadow: 0.14rem 0.14rem 0 var(--shadow), 0.22rem 0.22rem 0 var(--accent);
 }
 
 .project-card--wide-thumb {
