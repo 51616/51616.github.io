@@ -537,6 +537,7 @@ code {
   height: auto;
   max-height: none;
   object-fit: contain;
+  background: #ffffff;
 }
 
 .entry-card .entry-meta {
@@ -558,7 +559,7 @@ code {
   max-width: 19rem;
   max-height: 19rem;
   object-fit: contain;
-  background: #e6c4b8;
+  background: #ffffff;
 }
 
 div.paper-thumbnail {
