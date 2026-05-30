@@ -554,15 +554,15 @@ code {
 
 .paper-card {
   display: grid;
-  grid-template-columns: minmax(10rem, 16rem) minmax(0, 1fr);
-  gap: 0.9rem;
+  grid-template-columns: minmax(12rem, 19rem) minmax(0, 1fr);
+  gap: 1rem;
   align-items: start;
 }
 
 .paper-thumbnail {
   width: 100%;
-  max-width: 16rem;
-  max-height: 17.5rem;
+  max-width: 19rem;
+  max-height: 19rem;
   object-fit: contain;
   background: #e6c4b8;
 }
