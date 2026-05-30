@@ -479,6 +479,14 @@ code {
   font-weight: 700;
 }
 
+.entry-card .link-row {
+  margin: 0;
+  font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .contact-panel {
   background: var(--surface-high);
 }
