@@ -196,8 +196,13 @@ code {
   font-size: 1.03rem;
 }
 
+.hero-about,
 .hero-status {
   margin-top: 1.5rem;
+}
+
+.hero-about p {
+  margin: 0;
 }
 
 .hero-info-grid {
