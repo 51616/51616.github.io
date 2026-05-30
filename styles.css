@@ -554,14 +554,14 @@ code {
 
 .paper-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 0.7rem;
+  grid-template-columns: minmax(10rem, 16rem) minmax(0, 1fr);
+  gap: 0.9rem;
   align-items: start;
 }
 
 .paper-thumbnail {
   width: 100%;
-  max-width: 22rem;
+  max-width: 16rem;
   max-height: 17.5rem;
   object-fit: contain;
   background: #e6c4b8;
@@ -658,7 +658,8 @@ code {
   }
 
   .paper-thumbnail {
-    width: 22rem;
+    width: 100%;
+    max-width: 22rem;
   }
 
   .hero h1 {
