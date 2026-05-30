@@ -11,8 +11,8 @@
   --shadow: #11111b; /* crust */
   --success-bg: #a6e3a1;
   --success-text: #1e1e2e;
-  --max-width: 900px;
-  --border: 1px solid var(--ink);
+  --max-width: 760px;
+  --border: 0;
 }
 
 * {
@@ -25,9 +25,7 @@ html {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(circle at 1px 1px, rgba(205, 214, 244, 0.14) 1px, transparent 0) 0 0 / 18px 18px,
-    var(--background);
+  background: var(--background);
   color: var(--text);
   font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: 0.82rem;
@@ -58,8 +56,7 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.75rem 1.1rem;
-  border-bottom: var(--border);
+  padding: 0.9rem 1.1rem;
   background: #181825;
 }
 
@@ -70,8 +67,6 @@ img {
 }
 
 .site-footer {
-  border-top: var(--border);
-  border-bottom: 0;
   margin-top: 4rem;
   font-size: 0.76rem;
   text-transform: uppercase;
@@ -119,26 +114,20 @@ code {
 .hero,
 .block {
   position: relative;
-  border: var(--border);
-  background: var(--background);
+  background: transparent;
 }
 
 .block {
-  padding: 1rem;
+  padding: 0;
 }
 
 .block-shadow::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--shadow);
-  transform: translate(8px, 8px);
-  z-index: -1;
+  content: none;
 }
 
 .hero {
-  padding: 1.25rem;
-  overflow: hidden;
+  padding: 0;
+  overflow: visible;
 }
 
 .hero-grid,
@@ -150,7 +139,7 @@ code {
 
 .hero-grid {
   position: relative;
-  grid-template-columns: minmax(220px, 0.95fr) minmax(0, 2.05fr);
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
 }
 
@@ -182,9 +171,8 @@ code {
 
 .kicker {
   display: inline-block;
-  padding: 0.18rem 0.38rem;
-  background: var(--ink);
-  color: var(--background);
+  padding: 0;
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 900;
 }
@@ -198,9 +186,8 @@ code {
 
 .section-note--highlight {
   display: inline-block;
-  padding: 0.25rem 0.45rem;
-  background: var(--ink);
-  color: var(--background);
+  padding: 0;
+  color: var(--muted);
 }
 
 .section-note--highlight a {
@@ -209,8 +196,8 @@ code {
 
 .section-note--highlight a:hover,
 .section-note--highlight a:focus-visible {
-  background: var(--background);
-  color: var(--ink);
+  background: var(--accent);
+  color: var(--background);
 }
 
 .hero h1 {
@@ -305,11 +292,12 @@ code {
 }
 
 .portrait-card {
-  background: var(--surface-low);
+  background: transparent;
 }
 
 .portrait-card--hero {
-  padding: 0.75rem;
+  max-width: 18rem;
+  padding: 0;
 }
 
 .portrait-card img {
@@ -317,7 +305,6 @@ code {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: 58% center;
-  border: var(--border);
 }
 
 .bullet-list {
@@ -446,8 +433,7 @@ code {
 
 .editorial-quote {
   margin: 0;
-  padding-left: 1rem;
-  border-left: 4px solid var(--ink);
+  padding-left: 0;
   font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
   font-size: 1.18rem;
   line-height: 1.2;
@@ -477,7 +463,7 @@ code {
 
 .card-list {
   display: grid;
-  gap: 1rem;
+  gap: 1.4rem;
 }
 
 .compact-cv-list {
@@ -493,12 +479,10 @@ code {
   grid-template-columns: minmax(8rem, 0.45fr) minmax(0, 1fr);
   gap: 0.25rem 0.75rem;
   padding-top: 0.45rem;
-  border-top: var(--border);
 }
 
 .compact-cv-list li:first-child {
   padding-top: 0;
-  border-top: 0;
 }
 
 .compact-cv-list span {
@@ -527,14 +511,13 @@ code {
 }
 
 .entry-card {
-  padding: 0.65rem 0.9rem 0.9rem;
-  border: var(--border);
-  background: var(--surface-low);
+  padding: 0;
+  background: transparent;
 }
 
 .project-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 10rem;
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.85rem;
   align-items: start;
 }
@@ -542,13 +525,12 @@ code {
 .project-card img {
   width: 100%;
   height: auto;
-  border: var(--border);
   background: var(--surface-high);
   image-rendering: auto;
 }
 
 .project-card--wide-thumb {
-  grid-template-columns: minmax(0, 1fr) 20rem;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .project-card--wide-thumb img {
@@ -566,8 +548,8 @@ code {
 
 .paper-card {
   display: grid;
-  grid-template-columns: 22rem minmax(0, 1fr);
-  gap: 0.9rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.7rem;
   align-items: start;
 }
 
@@ -576,7 +558,6 @@ code {
   max-width: 22rem;
   max-height: 17.5rem;
   object-fit: contain;
-  border: var(--border);
   background: #f5e0dc;
 }
 
@@ -638,11 +619,11 @@ div.paper-thumbnail {
 }
 
 .contact-panel {
-  background: var(--surface-high);
+  background: transparent;
 }
 
 .contact-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .contact-grid p {
@@ -687,24 +668,14 @@ code {
 }
 
 @media (max-width: 640px) {
-  .project-card,
-  .project-card--wide-thumb {
-    grid-template-columns: minmax(0, 1fr) 7rem;
-  }
-
   .page-shell {
     width: min(calc(100% - 1rem), var(--max-width));
     margin-top: 1rem;
   }
 
-  .hero,
-  .block,
   .site-header,
   .site-footer {
     padding: 1rem;
   }
 
-  .block-shadow::after {
-    transform: translate(5px, 5px);
-  }
 }
