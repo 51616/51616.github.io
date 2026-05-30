@@ -424,6 +424,11 @@ code {
   font-size: 0.7rem;
 }
 
+.highlight-success {
+  color: #1f7a3a;
+  font-weight: 900;
+}
+
 .entry-card p {
   max-width: none;
 }
