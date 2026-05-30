@@ -451,7 +451,7 @@ code {
 }
 
 .entry-card .author-line {
-  margin: -0.25rem 0 0.1rem;
+  margin: -0.45rem 0 0;
   color: var(--muted);
   font-size: 0.82rem;
 }
@@ -475,7 +475,7 @@ code {
 
 .entry-card a {
   display: inline-block;
-  margin-top: 0.4rem;
+  margin-top: 0.1rem;
   font-weight: 700;
 }
 
