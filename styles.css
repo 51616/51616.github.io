@@ -1,16 +1,16 @@
 :root {
   color-scheme: dark;
-  --background: #1e1e2e; /* Catppuccin Mocha base */
-  --surface-low: #313244; /* surface0 */
-  --surface-high: #45475a; /* surface1 */
-  --ink: #cdd6f4; /* text */
-  --muted: #a6adc8; /* subtext0 */
-  --text: #cdd6f4;
-  --accent: #cba6f7; /* mauve */
-  --accent-strong: #89b4fa; /* blue */
-  --shadow: #11111b; /* crust */
-  --success-bg: #a6e3a1;
-  --success-text: #1e1e2e;
+  --background: #2b2623; /* Edo base */
+  --surface-low: #332f2c; /* Edo surface0 */
+  --surface-high: #4c4742; /* Edo surface2 */
+  --ink: #f2e8d5; /* Edo text */
+  --muted: #bbae99; /* Edo subtext0 */
+  --text: #f2e8d5;
+  --accent: #d06464; /* Edo beni */
+  --accent-strong: #78a9c7; /* Edo indigo */
+  --shadow: #191615; /* Edo crust */
+  --success-bg: #98b48b; /* Edo tea */
+  --success-text: #2b2623;
   --max-width: 760px;
   --border: 0;
 }
@@ -57,7 +57,7 @@ img {
   align-items: center;
   gap: 1rem;
   padding: 0.9rem 1.1rem;
-  background: #181825;
+  background: #231f1d;
 }
 
 .site-header {
@@ -563,7 +563,7 @@ code {
   max-width: 22rem;
   max-height: 17.5rem;
   object-fit: contain;
-  background: #f5e0dc;
+  background: #e6c4b8;
 }
 
 div.paper-thumbnail {
