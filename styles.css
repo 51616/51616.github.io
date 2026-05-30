@@ -438,6 +438,11 @@ code {
   font-size: 0.9rem;
 }
 
+.entry-card .author-line strong {
+  color: var(--ink);
+  font-weight: 900;
+}
+
 .entry-card p {
   max-width: none;
 }
