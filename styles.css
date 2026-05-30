@@ -163,7 +163,6 @@ code {
   grid-template-columns: minmax(0, 1fr);
 }
 
-.hero-side,
 .hero-meta,
 .hero-copy,
 .reading-column,
@@ -245,6 +244,19 @@ code {
   margin-top: 3rem;
 }
 
+.linear-content {
+  margin-top: 3rem;
+}
+
+.linear-content .portrait-card {
+  max-width: 26rem;
+}
+
+.linear-content .projects-grid,
+.linear-content .contact-grid {
+  grid-template-columns: 1fr;
+}
+
 .content-grid--blog {
   grid-template-columns: minmax(220px, 0.75fr) minmax(0, 2.25fr);
 }
@@ -254,17 +266,8 @@ code {
   gap: 1.5rem;
 }
 
-.hero-side {
-  display: grid;
-  gap: 1rem;
-}
-
 .portrait-card {
   background: var(--surface-low);
-}
-
-.portrait-card--hero {
-  padding: 1rem;
 }
 
 .portrait-card img {
@@ -459,10 +462,6 @@ code {
   .blog-listing-grid,
   .album-grid {
     grid-template-columns: 1fr;
-  }
-
-  .hero-side {
-    max-width: 24rem;
   }
 
   .hero h1 {
