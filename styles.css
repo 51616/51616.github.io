@@ -1,10 +1,16 @@
 :root {
-  --background: #f9f9f7;
-  --surface-low: #f4f4f2;
-  --surface-high: #e2e3e1;
-  --ink: #000000;
-  --muted: #5e5e5e;
-  --text: #1a1c1b;
+  color-scheme: dark;
+  --background: #1e1e2e; /* Catppuccin Mocha base */
+  --surface-low: #313244; /* surface0 */
+  --surface-high: #45475a; /* surface1 */
+  --ink: #cdd6f4; /* text */
+  --muted: #a6adc8; /* subtext0 */
+  --text: #cdd6f4;
+  --accent: #cba6f7; /* mauve */
+  --accent-strong: #89b4fa; /* blue */
+  --shadow: #11111b; /* crust */
+  --success-bg: #a6e3a1;
+  --success-text: #1e1e2e;
   --max-width: 900px;
   --border: 1px solid var(--ink);
 }
@@ -20,7 +26,7 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.16) 1px, transparent 0) 0 0 / 18px 18px,
+    radial-gradient(circle at 1px 1px, rgba(205, 214, 244, 0.14) 1px, transparent 0) 0 0 / 18px 18px,
     var(--background);
   color: var(--text);
   font-family: Inter, "Segoe UI", Arial, sans-serif;
@@ -30,13 +36,14 @@ body {
 
 a {
   color: inherit;
+  text-decoration-color: var(--accent);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
 }
 
 a:hover,
 a:focus-visible {
-  background: var(--ink);
+  background: var(--accent);
   color: var(--background);
 }
 
@@ -53,7 +60,7 @@ img {
   gap: 1rem;
   padding: 0.75rem 1.1rem;
   border-bottom: var(--border);
-  background: var(--background);
+  background: #181825;
 }
 
 .site-header {
@@ -124,7 +131,7 @@ code {
   content: "";
   position: absolute;
   inset: 0;
-  background: var(--ink);
+  background: var(--shadow);
   transform: translate(8px, 8px);
   z-index: -1;
 }
@@ -269,8 +276,8 @@ code {
 
 .button-primary:hover,
 .button-primary:focus-visible {
-  background: var(--background);
-  color: var(--ink);
+  background: var(--accent);
+  color: var(--background);
 }
 
 .content-grid {
@@ -570,7 +577,7 @@ code {
   max-height: 17.5rem;
   object-fit: contain;
   border: var(--border);
-  background: #ffffff;
+  background: #f5e0dc;
 }
 
 div.paper-thumbnail {
@@ -583,8 +590,8 @@ div.paper-thumbnail {
 .highlight-success {
   display: inline-block;
   padding: 0.06rem 0.22rem;
-  background: #dff3e5;
-  color: #1f7a3a;
+  background: var(--success-bg);
+  color: var(--success-text);
   font-weight: 900;
 }
 
