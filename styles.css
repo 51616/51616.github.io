@@ -432,6 +432,12 @@ code {
   font-weight: 900;
 }
 
+.entry-card .author-line {
+  margin: -0.25rem 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .entry-card p {
   max-width: none;
 }
