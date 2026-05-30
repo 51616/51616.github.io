@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Quiet Things placeholder</title>
+  <desc id="desc">Monochrome placeholder cover for the Quiet Things album.</desc>
+  <rect width="1200" height="900" fill="#f4f4f2"/>
+  <rect x="54" y="54" width="1092" height="792" fill="none" stroke="#000" stroke-width="8"/>
+  <circle cx="350" cy="360" r="160" fill="none" stroke="#000" stroke-width="8"/>
+  <circle cx="350" cy="360" r="66" fill="#000"/>
+  <rect x="620" y="200" width="230" height="230" fill="none" stroke="#000" stroke-width="8"/>
+  <rect x="900" y="260" width="120" height="330" fill="#000"/>
+  <path d="M620 560C700 500 770 500 850 560" fill="none" stroke="#000" stroke-width="8"/>
+  <path d="M620 620C700 560 770 560 850 620" fill="none" stroke="#000" stroke-width="8"/>
+  <text x="120" y="792" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="4">QUIET THINGS</text>
+  <text x="120" y="102" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="6">ALBUM 004</text>
+</svg>

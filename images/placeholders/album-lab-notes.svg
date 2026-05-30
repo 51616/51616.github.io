@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lab Notes placeholder</title>
+  <desc id="desc">Monochrome placeholder cover for the Lab Notes album.</desc>
+  <rect width="1200" height="900" fill="#f4f4f2"/>
+  <rect x="54" y="54" width="1092" height="792" fill="none" stroke="#000" stroke-width="8"/>
+  <rect x="110" y="150" width="980" height="570" fill="none" stroke="#000" stroke-width="8"/>
+  <g stroke="#000" stroke-width="8">
+    <path d="M170 250H1030"/>
+    <path d="M170 360H1030"/>
+    <path d="M170 470H1030"/>
+    <path d="M170 580H1030"/>
+    <path d="M360 190V680"/>
+    <path d="M640 190V680"/>
+    <path d="M840 190V680"/>
+  </g>
+  <circle cx="248" cy="248" r="38" fill="#000"/>
+  <circle cx="524" cy="468" r="38" fill="#000"/>
+  <circle cx="914" cy="578" r="38" fill="#000"/>
+  <text x="120" y="792" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="4">LAB NOTES</text>
+  <text x="120" y="102" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="6">ALBUM 002</text>
+</svg>

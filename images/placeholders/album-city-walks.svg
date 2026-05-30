@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">City Walks placeholder</title>
+  <desc id="desc">Monochrome placeholder cover for the City Walks album.</desc>
+  <rect width="1200" height="900" fill="#f4f4f2"/>
+  <rect x="54" y="54" width="1092" height="792" fill="none" stroke="#000" stroke-width="8"/>
+  <g fill="#000">
+    <rect x="120" y="120" width="220" height="220"/>
+    <rect x="382" y="180" width="158" height="500"/>
+    <rect x="582" y="140" width="116" height="610"/>
+    <rect x="740" y="230" width="180" height="420"/>
+    <rect x="962" y="160" width="110" height="560"/>
+  </g>
+  <path d="M120 720H1080" stroke="#000" stroke-width="10"/>
+  <text x="120" y="792" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="4">CITY WALKS</text>
+  <text x="120" y="102" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="6">ALBUM 001</text>
+</svg>

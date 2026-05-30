@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Conference Days placeholder</title>
+  <desc id="desc">Monochrome placeholder cover for the Conference Days album.</desc>
+  <rect width="1200" height="900" fill="#f4f4f2"/>
+  <rect x="54" y="54" width="1092" height="792" fill="none" stroke="#000" stroke-width="8"/>
+  <g fill="none" stroke="#000" stroke-width="8">
+    <rect x="130" y="180" width="270" height="390"/>
+    <rect x="465" y="140" width="270" height="430"/>
+    <rect x="800" y="220" width="270" height="350"/>
+  </g>
+  <g fill="#000">
+    <rect x="180" y="250" width="170" height="12"/>
+    <rect x="180" y="300" width="120" height="12"/>
+    <rect x="180" y="350" width="150" height="12"/>
+    <rect x="515" y="210" width="170" height="12"/>
+    <rect x="515" y="260" width="120" height="12"/>
+    <rect x="515" y="310" width="150" height="12"/>
+    <rect x="850" y="290" width="170" height="12"/>
+    <rect x="850" y="340" width="120" height="12"/>
+    <rect x="850" y="390" width="150" height="12"/>
+  </g>
+  <path d="M130 650H1070" stroke="#000" stroke-width="10"/>
+  <text x="120" y="792" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="4">CONFERENCE DAYS</text>
+  <text x="120" y="102" fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="6">ALBUM 003</text>
+</svg>
