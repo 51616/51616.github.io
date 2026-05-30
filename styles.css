@@ -139,7 +139,7 @@ code {
 
 .hero-grid {
   position: relative;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: minmax(12rem, 18rem) minmax(0, 1fr);
   align-items: start;
 }
 
@@ -301,6 +301,7 @@ code {
 }
 
 .portrait-card--hero {
+  width: 100%;
   max-width: 18rem;
   padding: 0;
 }
