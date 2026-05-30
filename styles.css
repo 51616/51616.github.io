@@ -24,7 +24,7 @@ body {
     var(--background);
   color: var(--text);
   font-family: Inter, "Segoe UI", Arial, sans-serif;
-  font-size: 0.94rem;
+  font-size: 0.88rem;
   line-height: 1.6;
 }
 
