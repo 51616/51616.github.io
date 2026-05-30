@@ -425,6 +425,9 @@ code {
 }
 
 .highlight-success {
+  display: inline-block;
+  padding: 0.08rem 0.28rem;
+  background: #dff3e5;
   color: #1f7a3a;
   font-weight: 900;
 }
