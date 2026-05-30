@@ -277,6 +277,11 @@ code {
   margin-top: 3rem;
 }
 
+.linear-content > .block {
+  border-top: 1px solid var(--surface-high);
+  padding-top: 1.5rem;
+}
+
 .linear-content .projects-grid,
 .linear-content .contact-grid {
   grid-template-columns: 1fr;
