@@ -196,19 +196,12 @@ code {
   font-size: 1.03rem;
 }
 
-.hero-about,
-.hero-status {
+.hero-about {
   margin-top: 1.5rem;
 }
 
 .hero-about p {
   margin: 0;
-}
-
-.hero-info-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
 }
 
 .button-row {
@@ -465,10 +458,6 @@ code {
   .contact-grid,
   .blog-listing-grid,
   .album-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-info-grid {
     grid-template-columns: 1fr;
   }
 
