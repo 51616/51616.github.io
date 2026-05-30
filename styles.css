@@ -436,7 +436,7 @@ code {
 
 .compact-cv-list li {
   display: grid;
-  grid-template-columns: minmax(8rem, 0.45fr) minmax(0, 0.9fr) minmax(0, 1.1fr);
+  grid-template-columns: minmax(8rem, 0.45fr) minmax(0, 1fr);
   gap: 0.25rem 0.75rem;
   padding-top: 0.45rem;
   border-top: var(--border);
@@ -465,6 +465,7 @@ code {
 .compact-cv-list em {
   color: var(--muted);
   font-style: normal;
+  font-weight: 500;
 }
 
 .projects-grid {
