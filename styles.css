@@ -473,6 +473,11 @@ code {
   letter-spacing: -0.04em;
 }
 
+.entry-card h2 a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
 .entry-card a {
   display: inline-block;
   margin-top: 0.1rem;
