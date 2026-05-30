@@ -426,6 +426,46 @@ code {
   gap: 1rem;
 }
 
+.compact-cv-list {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.compact-cv-list li {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.45fr) minmax(0, 1fr);
+  gap: 0.25rem 0.75rem;
+  padding-top: 0.45rem;
+  border-top: var(--border);
+}
+
+.compact-cv-list li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.compact-cv-list span {
+  color: var(--muted);
+  font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.64rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.compact-cv-list strong {
+  font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(0.9rem, 1.45vw, 1.1rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.compact-cv-list li > :not(span):not(strong) {
+  grid-column: 2;
+}
+
 .projects-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -519,6 +559,14 @@ code {
   .blog-listing-grid,
   .album-grid {
     grid-template-columns: 1fr;
+  }
+
+  .compact-cv-list li {
+    grid-template-columns: 1fr;
+  }
+
+  .compact-cv-list li > :not(span):not(strong) {
+    grid-column: auto;
   }
 
   .hero h1 {
