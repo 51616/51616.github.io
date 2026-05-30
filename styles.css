@@ -155,7 +155,7 @@ code {
 
 .hero-grid {
   position: relative;
-  grid-template-columns: minmax(160px, 0.9fr) minmax(0, 2.1fr);
+  grid-template-columns: minmax(220px, 0.95fr) minmax(0, 2.05fr);
   align-items: end;
 }
 
@@ -163,6 +163,7 @@ code {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.hero-side,
 .hero-meta,
 .hero-copy,
 .reading-column,
@@ -253,8 +254,17 @@ code {
   gap: 1.5rem;
 }
 
+.hero-side {
+  display: grid;
+  gap: 1rem;
+}
+
 .portrait-card {
   background: var(--surface-low);
+}
+
+.portrait-card--hero {
+  padding: 1rem;
 }
 
 .portrait-card img {
@@ -450,6 +460,10 @@ code {
   .blog-listing-grid,
   .album-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-side {
+    max-width: 24rem;
   }
 
   .hero h1 {
