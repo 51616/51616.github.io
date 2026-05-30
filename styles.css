@@ -173,6 +173,11 @@ code {
   letter-spacing: 0.18em;
 }
 
+.kicker {
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
 .stamp,
 .entry-meta,
 .section-note,
