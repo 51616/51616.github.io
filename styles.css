@@ -540,7 +540,7 @@ code {
 }
 
 :is(.paper-thumbnail, .project-card img, .album-cover) {
-  border: 1px solid var(--accent);
+  border: 2px solid var(--accent);
 }
 
 .project-card--wide-thumb {
