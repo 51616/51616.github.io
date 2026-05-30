@@ -597,16 +597,16 @@ div.paper-thumbnail {
 }
 
 .entry-card .entry-title {
-  margin: 0 0 0.75rem;
-  font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
-  font-size: clamp(0.9rem, 1.45vw, 1.1rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .entry-card .entry-title a {
+  text-decoration-line: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.14em;
+  text-underline-offset: 0.18em;
 }
 
 .entry-card a {
