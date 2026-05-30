@@ -424,6 +424,10 @@ code {
   font-size: 0.625rem;
 }
 
+.entry-card p {
+  max-width: none;
+}
+
 .entry-card h2 {
   margin: 0 0 0.75rem;
   font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
