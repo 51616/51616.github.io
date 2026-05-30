@@ -596,7 +596,7 @@ div.paper-thumbnail {
   max-width: none;
 }
 
-.entry-card h2 {
+.entry-card .entry-title {
   margin: 0 0 0.75rem;
   font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
   font-size: clamp(0.9rem, 1.45vw, 1.1rem);
@@ -604,7 +604,7 @@ div.paper-thumbnail {
   letter-spacing: -0.04em;
 }
 
-.entry-card h2 a {
+.entry-card .entry-title a {
   text-decoration-thickness: 1px;
   text-underline-offset: 0.14em;
 }
