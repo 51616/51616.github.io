@@ -272,6 +272,7 @@ code {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: 58% center;
   border: var(--border);
 }
 
