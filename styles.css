@@ -243,6 +243,14 @@ code {
   margin: 0;
 }
 
+.hero-text-links {
+  margin: 0.35rem 0 0;
+}
+
+.hero-text-links a {
+  font-weight: 700;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
