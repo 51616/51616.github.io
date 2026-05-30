@@ -457,7 +457,7 @@ code {
 
 .compact-cv-list strong {
   font-family: "Space Grotesk", "Arial Narrow", Arial, sans-serif;
-  font-size: clamp(0.9rem, 1.45vw, 1.1rem);
+  font-size: clamp(0.82rem, 1.25vw, 0.98rem);
   line-height: 1.05;
   letter-spacing: -0.04em;
 }
