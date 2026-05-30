@@ -439,6 +439,7 @@ code {
 .entry-card .entry-meta {
   display: block;
   width: 100%;
+  margin-bottom: 0.35rem;
   font-size: 0.64rem;
 }
 
