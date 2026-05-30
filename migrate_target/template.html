@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700;900&amp;family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary-fixed": "#ffffff",
+              "inverse-surface": "#2f3130",
+              "on-surface": "#1a1c1b",
+              "on-secondary": "#ffffff",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "primary-fixed": "#5e5e5e",
+              "surface-container-high": "#e8e8e6",
+              "on-tertiary-container": "#ffffff",
+              "on-primary-container": "#ffffff",
+              "tertiary-fixed-dim": "#474747",
+              "tertiary-container": "#747474",
+              "on-secondary-fixed-variant": "#3b3b3b",
+              "primary-container": "#3b3b3b",
+              "surface-container-highest": "#e2e3e1",
+              "surface-variant": "#e2e3e1",
+              "on-secondary-container": "#1b1b1b",
+              "secondary-fixed": "#c6c6c6",
+              "inverse-primary": "#c6c6c6",
+              "tertiary-fixed": "#5e5e5e",
+              "on-tertiary": "#e2e2e2",
+              "error-container": "#ffdad6",
+              "on-tertiary-fixed-variant": "#e2e2e2",
+              "on-error-container": "#410002",
+              "surface-dim": "#dadad8",
+              "surface-bright": "#f9f9f7",
+              "on-tertiary-fixed": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "error": "#ba1a1a",
+              "on-error": "#ffffff",
+              "background": "#f9f9f7",
+              "secondary": "#5e5e5e",
+              "tertiary": "#3b3b3b",
+              "inverse-on-surface": "#f1f1ef",
+              "surface": "#f9f9f7",
+              "primary-fixed-dim": "#474747",
+              "on-surface-variant": "#474747",
+              "on-background": "#1a1c1b",
+              "surface-container-low": "#f4f4f2",
+              "surface-tint": "#5e5e5e",
+              "outline-variant": "#c6c6c6",
+              "surface-container": "#eeeeec",
+              "secondary-fixed-dim": "#ababab",
+              "on-secondary-fixed": "#1b1b1b",
+              "on-primary": "#e2e2e2",
+              "primary": "#000000",
+              "secondary-container": "#d4d4d4",
+              "outline": "#777777"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .dither-pattern {
+            background-image: radial-gradient(#000 0.5px, transparent 0.5px);
+            background-size: 3px 3px;
+        }
+        .step-transition {
+            transition-timing-function: steps(4);
+        }
+        body {
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body class="bg-background text-primary font-body antialiased selection:bg-primary selection:text-white">
+<!-- TopAppBar -->
+<header class="bg-[#f9f9f7] dark:bg-[#000000] docked full-width top-0 border-b border-black dark:border-white border-b-1 flex justify-between items-center w-full px-6 py-4 max-w-none sticky z-50">
+<div class="text-2xl font-black tracking-tighter text-black dark:text-white font-['Space_Grotesk'] uppercase">
+            EPHEMERA_ARCHIVE
+        </div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter text-3xl font-bold text-neutral-500 dark:text-neutral-400 hover:bg-black hover:text-white transition-none" href="#">INDEX</a>
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter text-3xl font-bold text-black dark:text-white border-b-2 border-black dark:border-white pb-1 hover:bg-black hover:text-white transition-none" href="#">BIO</a>
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter text-3xl font-bold text-neutral-500 dark:text-neutral-400 hover:bg-black hover:text-white transition-none" href="#">LOG</a>
+</nav>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="terminal">terminal</span>
+</div>
+</header>
+<main class="min-h-screen">
+<!-- Cellular Canvas / Hero Section -->
+<section class="w-full h-[409px] bg-surface-container-low border-b border-primary relative overflow-hidden flex items-end p-6">
+<div class="absolute inset-0 dither-pattern opacity-20"></div>
+<div class="z-10 w-full flex justify-between items-baseline">
+<h1 class="font-headline font-black text-7xl md:text-9xl uppercase tracking-tighter leading-none">
+                    BIOGRAPHY<span class="text-secondary opacity-50">.DOC</span>
+</h1>
+<div class="font-label text-xs tracking-widest hidden md:block">
+                    REF_ID: 8821_44_ARCHIVE
+                </div>
+</div>
+</section>
+<!-- Main Content Area -->
+<div class="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-12 gap-12">
+<!-- Left Metadata Column -->
+<aside class="md:col-span-3 space-y-12">
+<div class="border border-primary p-4 bg-white relative">
+<div class="absolute -right-2 -bottom-2 w-full h-full bg-primary -z-10"></div>
+<img alt="Portrait" class="w-full grayscale contrast-150 brightness-75 border border-primary filter" data-alt="1-bit dithered high contrast male portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM8QHrtKk2e5fSy5AvkMnDO5MOe_wipJaEFgg2lVTe932asS5iFxwivfBHEI4f2bF2bZy7fOezC0S1MwpNcWxpzp0iqc_Vmo3lWYLjS7HCIrmOwLmMdcEdnP-rU2EXoy7EDq3yDTZWk5NdaufGD1RpPORD-MxJ7uujpl_r-vhOhaH8qe9fCdf_RwKJDwAJghIzcmqyu-GOD58okI2-9609haHTqgOsRSUVIkE81TmfkYq5JUMJ5zt-ZbNkxjOmuJhUIdzN2HSUPw"/>
+<div class="mt-4 font-label text-[10px] uppercase tracking-widest border-t border-primary pt-2">
+                        SUBJECT_PORTRAIT // VER_01
+                    </div>
+</div>
+<div class="space-y-4">
+<div class="text-[10px] font-label uppercase tracking-[0.2em] text-secondary">CURRICULUM_VITAE</div>
+<ul class="space-y-2 text-sm font-label uppercase">
+<li class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary"></span>
+<span>Digital Archaeology</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary"></span>
+<span>Archival Science</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary"></span>
+<span>Interface Theory</span>
+</li>
+</ul>
+</div>
+</aside>
+<!-- Center Content Column (Bio Text) -->
+<article class="md:col-span-6 space-y-16">
+<div class="space-y-8">
+<p class="text-2xl md:text-3xl leading-tight font-headline font-bold">
+                        A researcher operating at the intersection of temporal data and digital decay. Specializing in the preservation of ephemeral network states.
+                    </p>
+<div class="w-16 h-1 bg-primary"></div>
+<div class="prose prose-neutral max-w-none font-body text-lg leading-relaxed text-primary">
+<p>
+                            The digital landscape is often perceived as permanent, yet it is arguably the most fragile medium ever created. My work focuses on the "Living Archive"—the concept that data should not just be stored, but maintained in a state of active interaction. Born in the late 20th century, my perspective is shaped by the transition from physical analog documents to the volatile bitstreams of the modern era.
+                        </p>
+<div class="my-12 flex justify-center">
+<span class="material-symbols-outlined text-6xl" data-icon="settings_input_component">settings_input_component</span>
+</div>
+<p>
+                            By applying principles of traditional archival science to the chaotic structure of the web, I develop frameworks for "Documentarianism." This methodology rejects the glossy, over-processed aesthetic of contemporary interfaces in favor of high-contrast, high-utility environments that mirror the permanence of lead-plate printing.
+                        </p>
+<blockquote class="border-l-4 border-primary pl-6 my-12 italic text-2xl font-headline tracking-tight py-4">
+                            "Information is either present or hidden. There is no middle ground in the binary truth of the record."
+                        </blockquote>
+<p>
+                            Currently based in the digital diaspora, I consult for cultural institutions on the longevity of their interactive installations and digital collections. Each project is treated as a unique piece of ephemera—designed to be used, meant to be remembered, and built to survive the eventual heat death of the server.
+                        </p>
+</div>
+</div>
+<div class="pt-12 border-t border-primary flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 font-headline font-bold uppercase tracking-widest text-sm hover:bg-background hover:text-primary border border-primary transition-none">
+                        DOWNLOAD_FULL_CV
+                    </button>
+<button class="bg-background text-primary px-8 py-4 font-headline font-bold uppercase tracking-widest text-sm hover:bg-primary hover:text-on-primary border border-primary transition-none">
+                        CONTACT_ENQUIRY
+                    </button>
+</div>
+</article>
+<!-- Right Visual Column (Abstract Elements) -->
+<aside class="md:col-span-3 space-y-8">
+<div class="bg-surface-container-highest border border-primary p-6 space-y-4">
+<div class="font-label text-[10px] uppercase tracking-widest">SYSTEM_STATUS</div>
+<div class="h-2 w-full bg-secondary-container relative overflow-hidden">
+<div class="absolute inset-0 bg-primary w-2/3"></div>
+</div>
+<div class="grid grid-cols-4 gap-1">
+<div class="aspect-square bg-primary"></div>
+<div class="aspect-square bg-primary"></div>
+<div class="aspect-square border border-primary"></div>
+<div class="aspect-square bg-primary"></div>
+<div class="aspect-square border border-primary"></div>
+<div class="aspect-square border border-primary"></div>
+<div class="aspect-square bg-primary"></div>
+<div class="aspect-square border border-primary"></div>
+</div>
+</div>
+<div class="p-6 border border-primary dither-pattern min-h-[200px] flex items-center justify-center">
+<span class="material-symbols-outlined text-8xl opacity-10" data-icon="token">token</span>
+</div>
+<div class="font-label text-[9px] uppercase tracking-[0.3em] leading-relaxed text-secondary opacity-60">
+                    THIS PAGE WAS RENDERED ON A VIRTUAL PRESS AT 02:44AM. ALL RIGHTS RESERVED BY THE ARCHIVE IN PERPETUITY.
+                </div>
+</aside>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f9f9f7] dark:bg-[#000000] docked full-width bottom-0 border-t border-black dark:border-white border-t-1 flex justify-between items-center w-full px-6 py-8 mt-24">
+<div class="font-mono text-[10px] tracking-widest uppercase text-black dark:text-white">
+            ©2024_VOL_01_REF_77
+        </div>
+<div class="flex gap-8">
+<a class="font-mono text-[10px] tracking-widest uppercase text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white underline transition-none" href="#">SOURCE</a>
+<a class="font-mono text-[10px] tracking-widest uppercase text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white underline transition-none" href="#">MANUAL</a>
+<a class="font-mono text-[10px] tracking-widest uppercase text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white underline transition-none" href="#">RSS</a>
+</div>
+</footer>
+</body></html>
