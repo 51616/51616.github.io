@@ -209,6 +209,10 @@ code {
   font-size: 1.03rem;
 }
 
+.hero-status {
+  margin-top: 1.5rem;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
