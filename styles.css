@@ -27,7 +27,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--text);
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: 0.82rem;
   line-height: 1.6;
 }
@@ -81,7 +81,7 @@ img {
 .contact-label,
 .button,
 code {
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
 }
 
 .wordmark {
@@ -202,7 +202,7 @@ code {
 .hero h1 {
   margin: 0;
   max-width: 12ch;
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: clamp(2.1rem, 5.8vw, 4.8rem);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -368,7 +368,7 @@ code {
 .earlier-projects summary::after {
   content: "+";
   color: var(--ink);
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 900;
   line-height: 1;
@@ -398,7 +398,7 @@ code {
 
 .blog-title {
   margin: 0;
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: clamp(1.7rem, 3.4vw, 2.5rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
@@ -417,7 +417,7 @@ code {
   align-items: center;
   padding: 0.22rem 0.45rem;
   border: var(--border);
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: 0.66rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -439,7 +439,7 @@ code {
 .editorial-quote {
   margin: 0;
   padding-left: 0;
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: 1.18rem;
   line-height: 1.2;
   letter-spacing: -0.03em;
@@ -613,7 +613,7 @@ div.paper-thumbnail {
 
 .entry-card .link-row {
   margin: 0;
-  font-family: Verdana, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
