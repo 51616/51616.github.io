@@ -424,7 +424,6 @@ code {
   font-size: clamp(1.15rem, 2.1vw, 1.5rem);
   line-height: 1.05;
   letter-spacing: -0.04em;
-  text-transform: uppercase;
 }
 
 .entry-card a {
